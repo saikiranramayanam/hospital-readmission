@@ -1,0 +1,24 @@
+# ====================================
+# Project Environment Variables
+# ====================================
+
+# Dataset Path
+DATA_PATH=data/cleaned_data.csv
+
+# Model Path
+MODEL_PATH=models/calibrated_model.pkl
+
+# Output Directory
+OUTPUT_DIR=outputs/
+
+# Random Seed
+RANDOM_STATE=42
+
+# Classification Threshold
+THRESHOLD=0.15
+
+# SHAP Configuration
+SHAP_SAMPLE_SIZE=100
+
+# Logging
+LOG_LEVEL=INFO

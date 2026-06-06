@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  hospital-readmission:
+
+    build: .
+
+    container_name: hospital_readmission_project
+
+    volumes:
+      - .:/app
+
+    command: python src/train.py
